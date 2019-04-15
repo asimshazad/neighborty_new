@@ -1,21 +1,9 @@
 *.xml
 *.iml
-assets/fonts
-assets/media
-assets/uploads
+assets
 # Logs
 logs
-system
-vendor
 *.log
-*.txt
-*.zip
-.htaccess
-node_modules
-admin/config.php
-application/config/database.php
-application/config/config.php
-application/logs/*
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -72,3 +60,21 @@ typings/
 # dotenv environment variables file
 .env
 
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# *.iml
+# modules.xml
+# .idea/misc.xml
+# *.ipr
+.idea_modules/
